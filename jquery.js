@@ -11,12 +11,12 @@ var largeCrust = 1200;
 var oneVeggie = 100;
 var oneMeat = 150;
 
-
-
 //Assists with moving from one tab to the next as its the next element in the list
 function nextPage() {
     $(".navTab").eq(1).click();
 }
+
+
 
 //Pulls in client provided data to build their pizza
 function pizzaBuilder(){
