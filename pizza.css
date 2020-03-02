@@ -47,9 +47,11 @@ body {
     padding: 1em;
     margin: 0;
   }
+  
   LEGEND {
     font-size: 120%;
   }
+
   INPUT, TEXTAREA {
     font-family: Arial, verdana;
     font-size: 125%;
