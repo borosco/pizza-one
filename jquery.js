@@ -1,5 +1,4 @@
 $(document).ready(init);
-
 function init() {
     $(".navTab").click(doTabClick).eq(0).click();
     $("#stepOne").click(nextPage);
@@ -11,6 +10,8 @@ var mediumCrust = 900;
 var largeCrust = 1200;
 var oneVeggie = 100;
 var oneMeat = 150;
+
+
 
 //Assists with moving from one tab to the next as its the next element in the list
 function nextPage() {
