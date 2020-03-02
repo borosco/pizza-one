@@ -1,0 +1,17 @@
+# PIZZA ORDER SYSTEM
+## CREATED BY :DARWIN ONKOBA BORORIO
+### LIVE LINK :
+***
+### SETUP INSTRUCTIONS 
+
+The installation is simple and is not that complicated it involves lauching on the live link to the github
+
+### LANGUAGES USED 
+
+-CSS 
+-HTML 
+-JQUERY 
+-JAVASCRIPT 
+### KNOWN BUGS
+
+-No bugs encountered so far but in  case 
