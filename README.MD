@@ -17,5 +17,4 @@ The installation is simple and is not that complicated it involves lauching on t
 -No bugs encountered so far but in  case you encounter any bugs kindly contact me on the mail simpledarwins@gmail.com
 
 ### LICENSE AND COPYRIGHT INFORMATION
-@ MIT LICENSE 
-LINK <a href="license.html"></a>
+[LICENSE MIT](./license.html)
