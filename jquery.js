@@ -19,6 +19,7 @@ function nextPage() {
 
 
 //Pulls in client provided data to build their pizza
+
 function pizzaBuilder(){
     var pieSize = $("input[name='size']:checked").val();
     var crustType = $("input[name='crust']:checked").val();
@@ -29,6 +30,7 @@ function pizzaBuilder(){
     var city = $("#city").val();
     var state = $("#state").val();
     var phone = $("#phonenumber").val();
+
     //Array stores all the selected inputs for ingredients
     var ingredients =[];
     //pushes the selected attributes into the array
