@@ -66,6 +66,7 @@ body {
     width: 100%;
   
   }
+
   UL.tabNavigation {
     list-style: none;
     margin: 0;
@@ -80,6 +81,7 @@ body {
     color: #000;
     text-decoration: none;
   }
+
   UL.tabNavigation LI A.selected, UL.tabNavigation LI A:hover {
     background-color: #333;
     color: tomato;
