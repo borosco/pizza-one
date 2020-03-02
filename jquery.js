@@ -44,14 +44,15 @@ function pizzaBuilder(){
 
     var pieBuild = ingredients.join(", ");
     var subtotal = 0;
+     //Gives the customer an initial view of their order
+     $("#OrderView").html("Size: " + pieSize + "<br/>");
+     $("#OrderView").append("Crust type: " + crustType + "<br/>");
+     $("#OrderView").append("Ingredients: " + pieBuild + "<br/>");
+ 
 
     
 
-    //Gives the customer an initial view of their order
-    $("#OrderView").html("Size: " + pieSize + "<br/>");
-    $("#OrderView").append("Crust type: " + crustType + "<br/>");
-    $("#OrderView").append("Ingredients: " + pieBuild + "<br/>");
-
+   
     //Gives customer a chance to review their contact info
     $("#contactInfo").html("Name: " + firstName + " " + lastName + "<br/>");
     $("#contactInfo").append("Phone: " + phone + "<br/>");
