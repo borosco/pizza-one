@@ -80,6 +80,7 @@ function pizzaBuilder(){
 
     var grandTotal = subtotal + tax + 200.00;
  
+
     //Pushes all data to corresponding paragraph id element
     $("#infoSummary").html("Name: " + firstName + " " + lastName + "<br/>");
     $("#infoSummary").append("Address: " + street + " " + city + " " + state + " " + "<br/>");
