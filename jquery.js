@@ -48,17 +48,13 @@ function pizzaBuilder(){
      $("#OrderView").html("Size: " + pieSize + "<br/>");
      $("#OrderView").append("Crust type: " + crustType + "<br/>");
      $("#OrderView").append("Ingredients: " + pieBuild + "<br/>");
- 
-
-    
-
    
     //Gives customer a chance to review their contact info
     $("#contactInfo").html("Name: " + firstName + " " + lastName + "<br/>");
     $("#contactInfo").append("Phone: " + phone + "<br/>");
     $("#contactInfo").append("Address: " + street + " " + city + " " + state + " " + "<br/>");
 
-    //Begins calculations for pizza order
+    //Begins calculations for pizza order    
     if (pieSize == "small"){
         subtotal = subtotal + 700;
     } else if(pieSize == "medium"){
@@ -79,6 +75,7 @@ function pizzaBuilder(){
     }
 
     var tax = subtotal * .16;
+
     //ksh 200 is the price of delivery
     var grandTotal = subtotal + tax + 200.00;
     //Pushes all data to corresponding paragraph id element
