@@ -31,6 +31,7 @@ function pizzaBuilder(){
     var state = $("#state").val();
     var phone = $("#phonenumber").val();
 
+
     //Array stores all the selected inputs for ingredients
     var ingredients =[];
     //pushes the selected attributes into the array
@@ -43,6 +44,8 @@ function pizzaBuilder(){
 
     var pieBuild = ingredients.join(", ");
     var subtotal = 0;
+
+    
 
     //Gives the customer an initial view of their order
     $("#OrderView").html("Size: " + pieSize + "<br/>");
