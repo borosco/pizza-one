@@ -99,8 +99,10 @@ function pizzaBuilder(){
 
 
 //Switches between the different tabs and displays which tab is selected
+
 function doTabClick() {
     $(".divTab").hide().filter(this.hash).show();
     $(".navTab").removeClass("selected");
     $(this).addClass("selected");
 }
+
