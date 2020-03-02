@@ -1,0 +1,103 @@
+body {
+    background-image: url("images/rest.jpeg");
+   
+  } 
+  
+  .container5{
+    margin-top: 20px;
+  }
+  #deliveryOptions {
+    display: none;
+  }
+  
+  #results {
+    display: none;
+  }
+  
+  #boxy{
+    
+    padding: 50px 0px;
+  
+  }
+  BODY {
+    margin: 10px;
+    padding: 0;
+    font: 1em "Trebuchet MS", verdana, arial, sans-serif;
+    font-size: 100%;
+  }
+  H1 {
+    margin-bottom: 2px;
+    font-family: Garamond, "Times New Roman", Times, Serif;
+  }
+  DIV.container {
+    margin: auto;
+    width: 90%;
+    margin-bottom: 10px;
+  }
+  TEXTAREA {
+    width: 80%;
+  }
+  FIELDSET {
+    border: 1px solid;
+    padding: 1em;
+    margin: 0;
+  }
+  LEGEND {
+    font-size: 120%;
+  }
+  INPUT, TEXTAREA {
+    font-family: Arial, verdana;
+    font-size: 125%;
+    padding: 7px;
+    border: 1px solid #999;
+  }
+  LABEL {
+    display: block;
+    margin-top: 10px;
+  }
+  IMG {
+    width: 100%;
+  
+  }
+  UL.tabNavigation {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  UL.tabNavigation LI {
+    display: inline;
+  }
+  UL.tabNavigation LI A {
+    padding: 3px 5px;
+    background-color: violet;
+    color: #000;
+    text-decoration: none;
+  }
+  UL.tabNavigation LI A.selected, UL.tabNavigation LI A:hover {
+    background-color: #333;
+    color: tomato;
+    padding-top: 7px;
+  }
+  UL.tabNavigation LI A:focus {
+    outline: 0;
+  }
+  div.tabs > div {
+    padding: 5px;
+    margin-top: 3px;
+    border: 5px solid #333;
+  }
+  div.tabs > div h2 {
+    margin-top: 0;
+  }
+  #pizza {
+    background-color: darkslategray;
+  }
+  #deliveryInfo {
+    background-color: dimgray;
+  }
+  #summary {
+    background-color: gray;
+  }
+  .waste {
+    min-height: 1000px;
+  }

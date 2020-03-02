@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap cdn link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- css link to local file -->
+    <link rel="stylesheet" href="pizza.css">
+
+</head>
+<body>
+
+ 
+      <!-- add the logo to the webpage -->
+      <div class="container-fluid bg-dark" >
+          <div class="row col-md-6 " ></div>
+          <div class="spinner-grow">
+            <span class="sr-only">Loading...</span>
+        </div>
+          <img src="images/boss-logo.png" height="100" />
+
+          </div>
+          <div class="container">
+
+  </div>
+  
+
+
+        <div class="container5 bg-dark text-white text-center">
+            <div class="row col-md-6" ></div>
+            <p> Although it is one of the world's simplest and most popular foods, pizza is oddly difficult to define. 
+                Centuries of evolution have transformed it from the patties made of mashed grains that were its earliest
+                 antecedents into a dish that, though related to those early grain cakes, is almost unrecognizable as their descendant. 
+                 Most significant is the change in the primary ingredient, from various coarse grains
+                 to a solely wheat-based dough, and eventually to a dish made almost exclusively with white flour.</p>
+          </div>
+
+        </div>
+
+        <div class="card-deck">
+          <div class="card bg-dark text-white">
+            <div class="card-img-top" ><img src="images/cook.jpeg " class="card-img-top"></div>
+
+
+          </div>
+          <div class="card bg-dark">
+            <div class="card-img-top" ><img src="images/slice2.png " class="card-img-top"></div>
+
+          </div>
+          <div class="card bg-dark">
+            <div class="card-img-top" ><img src="images/cust1.jpeg" class="card-img-top"></div>
+
+
+          </div>
+          <div class="card bg-dark">
+            <div class="card-img-top" ><img src="images/wine.jpg" class="card-img-top"></div>
+
+          </div>
+        </div>
+        <!-- pizza order form section of the page -->
+        <div class="foot1 bg-dark text-white">
+          <div class="col-md-12 text-center">
+            
+            
+ 
+        </div>
+        <!-- order summary container all the summary should come here -->
+
+        <div id="page">
+
+          <div class="tabs">
+              <ul class="tabNavigation">
+                  <li><a href="pizzaTabs.html#pizza" class="navTab">Creator</a></li>
+                  <li><a href="pizzaTabs.html#deliveryInfo" class="navTab">Delivery info</a></li>
+                  <li><a href="pizzaTabs.html#summary" class="navTab">Summary</a></li>
+              </ul>
+          
+              <div id="pizza" class="divTab">
+                  <form>
+                      <fieldset>
+                          <legend class="legend">Pie Size</legend>
+                          <label>
+                              <input type="radio" name="size" id="small" value="Small" checked>Small (10"): ksh 700.00<br/>
+                              <input type="radio" name="size" id="medium" value="Medium">Medium (12"): ksh 900.00<br/>
+                              <input type="radio" name="size" id="large" value="Large">Large (14"): ksh 1200.00<br/>
+                          </label>
+                      </fieldset>
+                      <fieldset>
+                          <legend class="legend">Crust Type</legend>
+                          <label>
+                              <input type="radio" name="crust" id="glutenfree" value="Gluten Free" checked>Gluten-free<br/>
+                              <input type="radio" name="crust" id="deepdish" value="Deep dish">Deep-dish<br/>
+                              <input type="radio" name="crust" id="original" value="Original">Original Pan Crust<br/>
+                          </label>
+                      </fieldset>
+                      <fieldset>
+                          <legend class="legend">Meats</legend>
+                          <label>
+                              <input type="checkbox" name="meat" id="sausage" value="Sausage">Sausage: ksh 150.00<br/>
+                              <input type="checkbox" name="meat" id="pepperoni" value="Pepperoni">Pepperoni: ksh 150.00<br/>
+                              <input type="checkbox" name="meat" id="chicken" value="Chicken">Chicken: ksh 150.00<br/>
+                              <input type="checkbox" name="meat" id="ham" value="Ham">Ham: ksh 150.00<br/>
+                          </label>
+                      </fieldset>
+                      <fieldset>
+                          <legend class="legend">Veggies</legend>
+                          <label>
+                              <input type="checkbox" name="veggie" id="greenpeppers" value="Green Peppers">Green Peppers:
+                              ksh 100.00<br/>
+                              <input type="checkbox" name="veggie" id="bananapeppers" value="Banana Peppers">Banana Peppers:
+                              ksh 100.00 <br/>
+                              <input type="checkbox" name="veggie" id="mushrooms" value="Mushrooms">Mushrooms: ksh 100.00<br/>
+                          </label>
+                      </fieldset>
+                      <fieldset>
+                          <legend class="legend">Preview your order</legend>
+                          <label>
+                          <p id="OrderView"></p>
+                          </label>
+                      </fieldset>
+                  </form>
+                  <button type="submit" id="stepOne">Submit</button>
+              </div>
+              <div id="deliveryInfo" class="divTab">
+                  <form>
+                      <fieldset>
+                          <legend class="legend">Name</legend>
+                          <label>
+                              First name:<input type="text" name="names" id="firstname" required><br/>
+                              Last name:<input type="text" name="names" id="lastname" required><br/>
+                          </label>
+                      </fieldset>
+                      <fieldset>
+                          <legend class="legend">Delivery & Contact info</legend>
+                          <label>
+                              Phone Number: <input type="tel" name="names" id="phonenumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                                                   required><br/>
+                              Street Address: <input type="text" name="names" id="streetaddress" required><br/>
+                              City: <input type="text" name="names" id="city" required><br/>
+                              State: <input type="text" name="names" id="state" required><br/>
+                          </label>
+                      </fieldset>
+                      <fieldset>
+                          <legend>Review your contact information</legend>
+                          <label>
+                              <p id="contactInfo"></p>
+                          </label>
+                      </fieldset>
+          
+                  </form>
+                  <button type="submit" id="stepTwo">Submit</button>
+          
+              </div>
+              <div id="summary" class="divTab">
+                  <form>
+                      <fieldset>
+                          <legend class="legend">Info Summary</legend>
+                          <label>
+                              <p id="infoSummary"></p>
+                          </label>
+                      </fieldset>
+                      <fieldset>
+                          <legend class="legend">Meal Summary</legend>
+                          <label>
+                              <p id="mealSummary"></p>
+                          </label>
+                      </fieldset>
+                  </form>
+              </div>
+          
+          </div>
+          </div>
+        
+          
+        <!-- jquery cdn link -->
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous"></script>
+        <!-- local file link -->
+          <script src="jquery.js" ></script>
+</body>
+</html>
+
